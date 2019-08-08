@@ -22,6 +22,10 @@ defmodule TypedStruct.Cast.Type do
     {:ok, value}
   end
 
+  def cast(_type, nil, _opts) do
+    {:ok, nil}
+  end
+
   #############################################################################
   # Integer
 
