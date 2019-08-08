@@ -12,14 +12,14 @@
 
 ## Installation
 
-Add `typedstruct_cast` to your list of dependencies in `mix.exs`:
+Add `typed_struct_cast` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
     # NOTE: Currently not published on hex
-    # {:typedstruct_cast, "~> 0.1.0"}
-    {:typedstruct_cast, github: "avitex/typed-struct-cast"}
+    # {:typed_struct_cast, "~> 0.1.0"}
+    {:typed_struct_cast, github: "avitex/typed-struct-cast"}
   ]
 end
 ```

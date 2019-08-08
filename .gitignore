@@ -20,5 +20,5 @@ erl_crash.dump
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
-typedstruct_cast-*.tar
+typed_struct_cast-*.tar
 
