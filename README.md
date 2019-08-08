@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/avitex/typed-struct-cast.svg)](https://travis-ci.org/avitex/typed-struct-cast)
+
 # TypedStruct.Cast
 
 **Casting plugin for [TypedStruct](https://hex.pm/packages/typed_struct)**
@@ -5,11 +7,10 @@
 ## TODO
 
 - Documentation
+- Finish primitive casting
 - Remove requirement on development version of `typed_struct` that supports plugins.
 
 ## Installation
-
-****
 
 Add `typedstruct_cast` to your list of dependencies in `mix.exs`:
 
