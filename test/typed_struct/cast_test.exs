@@ -7,8 +7,8 @@ defmodule TestStruct do
 
     field(:foobar, integer())
     field(:foobar_enforced, integer(), enforced: true)
-    field(:foobar_casted, integer(), cast: :integer)
-    field(:foobar_casted_enforced, integer(), enforced: true, cast: :integer)
+    field(:foobar_casted, integer(), cast: Integer)
+    field(:foobar_casted_enforced, integer(), enforced: true, cast: Integer)
   end
 end
 

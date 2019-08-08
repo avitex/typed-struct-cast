@@ -43,7 +43,7 @@ defmodule MyStruct do
   typedstruct do
     plugin TypedStruct.Cast.Plugin
 
-    field :foo, integer(), cast: :integer
+    field :foo, integer(), cast: Integer
     field :bar, MyCustomType.t(), cast: {MyCustomType, [foo: true]}
   end
 end
