@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/avitex/typed-struct-cast.svg)](https://travis-ci.org/avitex/typed-struct-cast)
+[![Build Status](https://travis-ci.com/avitex/typed-struct-cast.svg?branch=master)](https://travis-ci.com/avitex/typed-struct-cast)
 
 # TypedStruct.Cast
 
