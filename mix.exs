@@ -21,7 +21,7 @@ defmodule TypedStruct.Cast.MixProject do
 
   defp deps do
     [
-      {:typed_struct, github: "ejpcmac/typed_struct", branch: "develop"},
+      {:typed_struct, "~> 0.2"},
       {:ex_doc, "~> 0.21", only: :dev, runtime: false}
     ]
   end
